@@ -4,6 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>GT Places - subscripton C1</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172687775-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-172687775-1');
+		</script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./styles/styles.css">
 	</head>
@@ -18,7 +26,7 @@
 			<div class="form-row text-center">
 				<div class="col-12">
 					<div id="paypal-button-container"></div>
-					<script src="https://www.paypal.com/sdk/js?client-id=AXoqO66OnIQKYK2tIlsEWCCLwDMTAWTTSrJSygLC5FEvDYieRWFVDueV3v_mrfldGLa66OXHOsHYPd15&vault=true" data-sdk-integration-source="button-factory"></script>
+					<script src="https://www.paypal.com/sdk/js?client-id=AX9a5VDMWe-0krWfX6bm1to8rCbf5AoavjD2uyQva7b4BZYUVGmxlZAnXyx_Bhmdd0HZikTzyYlTgve6&vault=true" data-sdk-integration-source="button-factory"></script>
 					<script>
 					paypal.Buttons({
 					style: {
@@ -26,7 +34,6 @@
 					color: 'blue',
 					layout: 'vertical',
 					label: 'subscribe',
-										
 					},
 					createSubscription: function(data, actions) {
 					return actions.subscription.create({

@@ -62,3 +62,8 @@ body {
 .size-35 {
 	width: 35%;
 }
+
+.padding-15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+} 
